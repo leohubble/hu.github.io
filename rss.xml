@@ -6,130 +6,15 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 24 Aug 2022 17:05:05 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2022 17:05:05 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Aug 2022 08:02:12 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Aug 2022 08:02:12 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>博客</category>
-    <category>头脑驿站</category>
-    <category>购物</category>
-    <category>系统</category>
     <category>工具</category>
     <category>自动化</category>
+    <category>系统</category>
     <category>网络</category>
-    <item>
-      <title>抛弃知识管理软件的尝试：把博客变为知识库</title>
-      <link>https://newzone.top/_posts/2022-08-22-learndata_blog_to_knowledge_management.html</link>
-      <guid>https://newzone.top/_posts/2022-08-22-learndata_blog_to_knowledge_management.html</guid>
-      <source url="https://newzone.top/rss.xml">抛弃知识管理软件的尝试：把博客变为知识库</source>
-      <category>博客</category>
-      <category>头脑驿站</category>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Notion、Obsidian、Logseq、Roam Research、Evernote、flomo、为知、飞书、语雀……知识管理/笔记软件越来越多，我总在不同应用间徘徊。直到有次忽然醒悟，知识管理软件不是管理知识，而是管理笔记。<strong>笔记里的知识并不属于你，只有经过消化、应用，才会成为自己的知识。</strong></p>
-<p>这么简单的事，我之前却一直没看透，总是把笔记与知识理解划上了等号。当要用到曾摘录的笔记时，就在各类知识管理软件里翻找，折腾一番才找到需要的笔记，有时甚至出现「自己不清楚放在哪里，也不清楚是否有」的情况。记笔记花了一个小时，下次寻找与重新消化又花了一个小时，原本为效率而生的知识管理软件变成了浪费时间的杀手。</p>
-<p>另一方面，我们在用知识管理软件的美观界面和强大功能的同时，也被这些软件所限制，无法完全按自己的想法输出笔记。比如，你长了一双翅膀，<strong>Markdown 文本是自由的天地，而进入 Notion 则被隔成一个个小房间</strong>，你在房间里待着很舒服，可一旦想去其他房间，就必须脱离 block，不比 Markdown 可以自由飞翔。</p>
-<p><img src="http://tc.seoipo.com/2022-08-22-18-02-07.png" alt="" title="Markdown VS Notion" loading="lazy"></p>
-<p>突破迷思后，我基于 VuePress 和 vuepress-theme-hope 建立了 <a href="https://github.com/rockbenben/LearnData" target="_blank" rel="noopener noreferrer">LearnData</a> 项目，把知识笔记、生活记录、博客和任何觉得有价值的记录转成 Markdown 文本，然后推送到 GitHub 生成 Pages 静态页面，同步到国内云服务器形成 <a href="https://newzone.top/" target="_blank" rel="noopener noreferrer">LearnData - 开源笔记</a>。</p>
-<p><img src="http://tc.seoipo.com/2022-08-24-19-14-59.png" alt="" title="笔记/博客自动化发布" loading="lazy"></p>
-<p>LearnData 的笔记/文章编辑均使用 Markdown，输出不再受到应用的局限。同时，LearnData 看似是由一篇篇文章组成的博客，但其笔记是独立的知识点，是所有知识的终点站，是整理后的知识库。通过 LearnData 就能完成知识的搜索与整理，不再需要来回翻找。把博客转为知识库后，我明显感到学习和知识使用的效率得到提高，开始摆脱「工具奴隶」和「效率中毒」陷阱。</p>
-<p><img src="http://tc.seoipo.com/2022-08-22-19-28-25.png" alt="" title="笔记 + 文章 = LearnData 知识库" loading="lazy"></p>
-<h2 id="为什么用网页管理笔记" tabindex="-1"> 为什么用网页管理笔记</h2>
-<h3 id="公开分享想法" tabindex="-1"> 公开分享想法</h3>
-<p>知识管理/笔记软件天然带有私有性质，不对外公开。但是，我的笔记大都来自互联网，要对谁保密？</p>
-<p>我很推崇 Ray Dalio 在《原则》中提到的「头脑极度透明，公开分享想法」。</p>
-<blockquote>
-<p>让其他人无比清晰地看到你在做什么、为什么这么做。头脑越透明，越不会自欺，其他人也会给你诚实的反馈。</p>
-</blockquote>
-<p>作为国内最早一批介绍 Aria2 的人，我曾经写过一篇 Aria2 教程，文章后来被多个网站参考/抄袭，覆盖了 Aria2 某度搜索前三页。在那篇文章的评论区，有好几条留言说文章逻辑差看不懂的，也经常有热心人帮我怼回去。其实，那篇文章的初版真的很糟糕，只是写得比较早，当时没几篇中文教程，大家只能看这篇教程。我写文章的初衷是方便自己用，避免一个解决方案用完就忘，下次又从头开始。那篇文章是在大家的反馈下，迭代了三个版本才开始变得完整和逻辑化。这些反馈也是我坚持写博客的原动力。这跟费曼学习法的道理相通，当你写文章帮助其他人时，你也在加深自己对知识的理解。</p>
-<p>建立 LearnData 只有一个月，但我从中获取的正反馈超过私有笔记一年的获得。笔记公开化是有百利而无一害。</p>
-<h3 id="输出分享" tabindex="-1"> 输出分享</h3>
-<p>其次，网页形式让笔记方便分享。除了效率工具心得，我把生活技巧、购物评价和说明书也放在 LearnData。家人或朋友需要帮助时，直接访问网页即可，不需要安装 app 或折腾账户分享，比如下图的 <a href="https://newzone.top/family/Maintenance.html#%E9%80%9A%E9%A9%AC%E6%A1%B6" target="_blank" rel="noopener noreferrer">通马桶技巧</a> 和疏通器说明书。</p>
-<p><img src="http://tc.seoipo.com/2022-08-19-22-52-29.png" alt="生活知识页面样例" loading="lazy"></p>
-<h3 id="漂亮决定生产力" tabindex="-1"> 漂亮决定生产力</h3>
-<p>另外，网页能自由调整外观样式，更换为你喜欢的界面。这也是为什么 LearnData 舍弃了初版的 docsify 框架，改为复杂许多的 VuePress 框架。docsify 官方模板过于简单，没有界面设计模块，难以满足知识管理界面必须直观漂亮的要求，而这点直接决定了生产力，不能让步。</p>
-<p>知识管理/笔记软件将 Markdown 文件作为一个个区块，而网页可以将其视为一体。LearnData 支持多级侧边栏和目录，让阅读查找变得简单。</p>
-<p><img src="http://tc.seoipo.com/2022-08-19-22-42-03.png" alt="" title="LearnData 页面布局" loading="lazy"></p>
-<h2 id="为什么不用-obsidian" tabindex="-1"> 为什么不用 Obsidian</h2>
-<p>@北鸮 提到「脱离 Notion 可以理解，Markdown 很自由，那为啥不用 Obsidian 呢？也有标题，也有标签，也可以有层级，开源软件还有 Logseq 替代」。</p>
-<p>Obsidian 等双链笔记想法设计很好，我们可以自由地在不同知识点间切换，节省搜索和关联的时间。但知识点的联系是靠人工打标签来建立的，而非根据关键词自动建立图谱关系。这跟 URL 链接又有什么区别？因此我认为，<strong>双链笔记并不适合知识库</strong>。（如果对双链笔记理解错误，欢迎纠正。）</p>
-<p><img src="http://tc.seoipo.com/2022-08-19-21-39-41.png?imageMogr2/thumbnail/!60p" alt="" title="我的 Obsidian 图谱，只有右下角简悦抓取的素材有相同标签而聚作一团" loading="lazy"></p>
-<p>建立知识点联系后，双链笔记能轻松处理成千上万个文档，按条件整合文本方便阅读。但是，多数人常用知识范围不会超过一百。如果你的个人笔记上千了，说明你要不是科研大佬，要不没消化甚至是根本没读过这些笔记，只是在记笔记。</p>
-<p>除去博客，我只有 37 篇笔记，而且按功能划分为 7 个区块。你觉得这点文件，用树状管理方便，还是用双链笔记打一堆标签来得好？即使有时标题里找不到某个关键词，我用全文搜索达到目的。我个人会倾向于简单方便的树状标题管理。</p>
-<h2 id="抛弃知识软件-不用" tabindex="-1"> 抛弃知识软件 ≠ 不用</h2>
-<p>选择 Markdown 就得卸载知识软件吗？</p>
-<p>抛弃知识软件并不是不用，而是将其视为知识的中转站。知识软件的趋势是 ALL IN ONE，记录全能成了标榜的主打功能。可是，<strong>光收集而不应用的知识等于零</strong>，只会增加你后续的使用成本。</p>
-<p>知识软件对我来说，是功能清晰的素材库。我会不断清空素材库，将小的知识点融入 LearnData 笔记区，成体系内容则写成博客，确保 LearnData 成为知识库的终点。</p>
-<p><img src="http://tc.seoipo.com/2022-08-21-21-38-47.png" alt="" title="知识类素材库" loading="lazy"></p>
-<ul>
-<li>Logseq 对信息节点化，能按日期整合文本，因此我用它来记录笔记，并定期生成周报和月报回顾。</li>
-<li>飞书文档自带侧边目录栏，对长文档优化很好，因此我用它来记录工作心得，定期形成工作流程在公司分享。</li>
-<li>WonderPen 带多层级标题，当一点头绪方向都没有时，素材就直接丢这。</li>
-<li>Notion 貌似全能，但其可替代性也最高，知识库迁移到 LearnData 后，Notion 仅存放涉及个人信息和不方便转移的旧文档。</li>
-<li>Airtable 表格功能最强，虽然已经被其他软件赶上了，但前期存储过多，表格类继续放这。</li>
-<li>SuperMemo 与 Anki 功能类似，对记忆性的笔记定期复习。</li>
-</ul>
-<h2 id="如果你也想试试" tabindex="-1"> 如果你也想试试……</h2>
-<p>如何搭建把博客转为知识库，建立属于你的 LearnData 知识管理网站呢？</p>
-<p>首先，确定你有 GitHub 账户，懂 Markdown 和基础 HTML 知识。然后，按 <a href="https://newzone.top/#%E6%90%AD%E5%BB%BA-LearnData" target="_blank" rel="noopener noreferrer">LearnData 部署教程</a> 即可完成搭建和配置。如果你的笔记已经 Markdown 化，把文档放在 docs 目录下就可以建立你自己的知识库。</p>
-<p>笔记结构可以参考我的分类。这没有绝对的界限，只要看到自己觉得有价值的知识点，都可以往 LearnData 里丢。等下次应用到这个知识点时，我们再考虑整理事宜，否则，长时间用不到的知识，又有什么整理的必要呢。</p>
-<ul>
-<li>置顶：日常习惯、健身、阅读；</li>
-<li>代码：常用代码的学习使用笔记；</li>
-<li>软件应用：常用应用、Chrome 扩展及相关教程；</li>
-<li>页面开发：页面插件和框架生成工具；</li>
-<li>网站部署：网站相关的平台、工具及知识收集；</li>
-<li>Linux 服务：NAS 和服务器上的后端应用，主要以 Docker 方式部署；</li>
-<li>系统问题：Windows 系统优化和相关问题；</li>
-<li>生活区：说明书，生活记录及小技巧；</li>
-<li>博客区：聚合所有博客文章，并以分类、标签、时间轴等方式进行组合。</li>
-</ul>
-<h2 id="最后" tabindex="-1"> 最后</h2>
-<p>两个月前，我在 WordPress 博客篇中喊着「md2wordpress 是最后一次博客方案」，但由于 WordPress 与 Markdown 各种不兼容，写完没多久就换到支持原生 Markdown 解析的 VuePress。</p>
-<p>这次我不想再立 Flag 了，只希望能放过自己。每进行一次知识迁移，真是大伤，休息一段时间吧。</p>
-<p>如果你有兴趣尝试 <a href="https://newzone.top/" target="_blank" rel="noopener noreferrer">LearnData</a>，欢迎通过链接访问并复制模板尝试，具体的操作方法与常见问答我都写在博客中。有进一步的问题或讨论欢迎在评论区留言。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>新玩意｜智能可折叠综合塑形机</title>
-      <link>https://newzone.top/_posts/2022-08-10-new_stuff_shaping_machine.html</link>
-      <guid>https://newzone.top/_posts/2022-08-10-new_stuff_shaping_machine.html</guid>
-      <source url="https://newzone.top/rss.xml">新玩意｜智能可折叠综合塑形机</source>
-      <category>购物</category>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>家里关得太久，体重又涨了 10 斤，再次陷入健身器材焦虑之中。虽然划船机、跑步机、动感单车的结局都是闲鱼出，但我对健身器材的追逐始终没变。这时发现有品众筹的新玩具，两千的综合塑形机。</p>
-<p><img src="https://cdn.sspai.com/2022/08/09/article/74429ae5770ce6fe9b338527105a4744?imageView2/2/w/450/q/90/interlace/1/ignore-error/1" alt="" loading="lazy"></p>
-<p>这款塑形机原理与飞鸟龙门架类似，号称可以充当家庭健身房，锻炼全身的肌肉，包括练肩后束、练背、练上胸、练胸中缝、练下胸、练三头、练二头、练核心、练臀大肌、练大腿外侧。</p>
-<p>之前我就想练飞鸟，不过龙门架实在太大，而这台机器折叠后只占 0.18 平，还能移动位置，完美匹配屋内使用的需求。虽然这是众筹产品，要等 2 个月，还是心动下单了。</p>
-<p><img src="https://cdn.sspai.com/2022/08/09/37a78274cca974e793582250954c75dc.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="" title="左侧为龙门架，右侧为塑形机" loading="lazy"></p>
-<p>等待收货时间内，体重继续上涨，总想着健身器材到了就瘦了。但是当收到货后，我终于理解了「<strong>什么叫做众筹</strong>」。</p>
-<p>锻炼时必须用身体抵住塑形机，否则机器会跟着你的动作滑走。虽然滑动的原因在于机器较轻，只有 60 KG，但我无法理解的是，厂家连基本的防滑措施也没有做，仿佛生产前从没人真的用过机器。<strong>防滑降噪脚垫在拖动时倒蛮好用的</strong>，拖起来特别丝滑，完全没有阻抗。为了避免塑形机不断滑走，我只能买了个阻门器，装上后就能避免机器乱滑动了。</p>
-<p><img src="https://cdn.sspai.com/2022/08/09/article/6d2731baacf4174c4b7465b11ba715fd?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="" title="右下方是红色的阻门器，硬拉终于不会滑了" loading="lazy"></p>
-<p>解决滑动问题后，我打开塑形机官方视频，才发现其中 90% 的动作用不到塑形机，甚至是根本就扯不上关系。买之前，我看着详情页感觉动作特多功能特强，用过后，才发现「这就是所有的动作」。</p>
-<p><img src="https://cdn.sspai.com/2022/08/09/article/db951607296d83ce9a0ff181d724de14?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="" loading="lazy"></p>
-<p>不过，机器都收货了，动作少也得跟着练。可是，按照塑形机官方教程锻炼一组后，我的肩膀和手臂都被勒伤。原因是与身体接触的部分都是特粗尼龙绳，没有任何缓冲，一用力就容易勒伤。两千的机器连块 PU 皮都要省，可能是想让大家穿着特别严实来锻炼吧。</p>
-<p>钢板间隙过大，凳子要蛮力打开，锻炼视频无法暂停，APP 没有语音提示，视频教程无法切换动作，几乎机器到处都有问题，只能将原因归于众筹了，第一款模具真的是无语。</p>
-<p>当然，这款塑形机也是有好处的。传统龙门架使用铁块配重，重量最少也得上百公斤，而且占地大无法移动。塑形机采用磁力配重，重量只有 60KG，机器折叠后 0.18 平方，配上<strong>防滑降噪脚垫非常方便移动。</strong></p>
-<p>塑形机确实能帮我练到平常少运动的肌肉，目前主要用它练背，等有了新玩具再出闲鱼。</p>
-]]></content:encoded>
-      <enclosure url="https://cdn.sspai.com/2022/08/09/article/74429ae5770ce6fe9b338527105a4744?imageView2/2/w/450/q/90/interlace/1/ignore-error/1" type="image/"/>
-    </item>
-    <item>
-      <title>「硬盘布局不受 UEFI 固件支持」－华硕主板解决方案</title>
-      <link>https://newzone.top/_posts/2020-09-22-uefi_asus_board.html</link>
-      <guid>https://newzone.top/_posts/2020-09-22-uefi_asus_board.html</guid>
-      <source url="https://newzone.top/rss.xml">「硬盘布局不受 UEFI 固件支持」－华硕主板解决方案</source>
-      <category>系统</category>
-      <pubDate>Tue, 22 Sep 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>电脑用了 5 年，Win10 系统更新时突然提示「硬盘布局不受 UEFI 固件支持」。</p>
-<p><strong>解决办法</strong>：</p>
-<p>电脑重启，按 F2 或 DEL 进入 BIOS。</p>
-<p>选择高级模式，<code>启动－CSM－启动设备控制</code>，设置为「仅 Legecy OPROM」。</p>
-<p><img src="https://pic4.zhimg.com/v2-8a26bd62460f662caad3dba696c54efb_r.jpg" alt="" loading="lazy"></p>
-<p>设置完成后，Windows 系统就可以正常更新了。</p>
-<p>这是华硕主板的解决方案，其他主板的顺序或许不同，但原理是一致的，都是将启动模式修改为「Only Legecy」。</p>
-]]></content:encoded>
-      <enclosure url="https://pic4.zhimg.com/v2-8a26bd62460f662caad3dba696c54efb_r.jpg" type="image/jpeg"/>
-    </item>
+    <category>服务器</category>
     <item>
       <title>电脑上实现微信双开，无需网页版或第三方软件</title>
       <link>https://newzone.top/_posts/2017-04-18-wechat_multi_open.html</link>
@@ -426,6 +311,92 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
 <p>新装光猫无法获取超级密码的话，可直接使用运营商 app 进行映射。</p>
 ]]></content:encoded>
       <enclosure url="https://pic1.zhimg.com/v2-9e43bc86b9095f3f6c2cfa4bd58dcd68_r.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>光猫改造 篇二：光猫 + 路由器，实现端口映射</title>
+      <link>https://newzone.top/_posts/2017-10-18-light_cat_port_forwarding.html</link>
+      <guid>https://newzone.top/_posts/2017-10-18-light_cat_port_forwarding.html</guid>
+      <source url="https://newzone.top/rss.xml">光猫改造 篇二：光猫 + 路由器，实现端口映射</source>
+      <category>网络</category>
+      <pubDate>Wed, 18 Oct 2017 22:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>光猫默认没有管理权限，需要先获得光猫的超管密码，参考 <a href="https://newzone.top/_posts/2017-10-18-Light_cat_E8-C-EPON_admin.html" target="_blank" rel="noopener noreferrer">光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2）</a>。</p>
+<p><strong>光猫端口映射步骤：</strong></p>
+<ol>
+<li>
+<p>登陆光猫管理地址 192.168.1.1，应用 → 高级 NAT 设置 →DMZ 设置，启用 DMZ 主机绑定路由器地址（路由器 WAN 口 IP 地址-192.168.1.X)</p>
+<p><img src="https://pic2.zhimg.com/v2-658d5433201b79da169a520f4b19d495_r.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>登陆路由器管理地址 192.168.X.X。这里已梅林 AC5300 为图例。</p>
+<p><img src="https://pic4.zhimg.com/v2-32825a6d3d75f4bfe5668f1b0d6c6683_r.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>在路由器设置选项中找到“端口转发”，按要求设置端口。我这是 eMule TCP 和 UDP 转发，设置完成后，变成 High ID。</p>
+<p><img src="https://pic2.zhimg.com/v2-8f3eb2c42fd5d1a98f1345c6a5855e99_r.jpg" alt="" loading="lazy"></p>
+<p><img src="https://pic2.zhimg.com/v2-b4f5179278da52409f4a04ce7d139f99_r.jpg" alt="" loading="lazy"></p>
+</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://pic2.zhimg.com/v2-658d5433201b79da169a520f4b19d495_r.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>小型网站管理员，快放弃 CDN！</title>
+      <link>https://newzone.top/_posts/2018-01-19-forget_the_cdn.html</link>
+      <guid>https://newzone.top/_posts/2018-01-19-forget_the_cdn.html</guid>
+      <source url="https://newzone.top/rss.xml">小型网站管理员，快放弃 CDN！</source>
+      <category>服务器</category>
+      <pubDate>Fri, 19 Jan 2018 12:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>CDN 的全称是 Content Delivery Network，即内容分发网络。其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定。通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，CDN 系统能够实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息将用户的请求重新导向离用户最近的服务节点上。其目的是使用户可就近取得所需内容，解决 Internet 网络拥挤的状况，提高用户访问网站的响应速度。</p>
+</blockquote>
+<p>国内 CDN 有阿里云、腾讯、百度、网宿、七牛云、又拍云等。</p>
+<p>这里以阿里云 CDN 为例。我之前使用阿里云全站 CDN，一直以为速度会加快。但命中率只有 7%，在更换为 ECS 后，命中率更降为 2%。</p>
+<p>更可怕的是，我提交工单后才得到的事实。<strong>CDN 运营商会根据 DNS 分配就近分配 CDN 节点，抓取网站缓存。</strong></p>
+<p>第一反应：「不错啊。如果网站在北京，访客在上海，直接访问上海的节点，速度必然要快一些。」</p>
+<p>但事实并没有这么完美。<strong>CDN 是根据本地 DNS 来分配节点。</strong></p>
+<p>你从上海放出访问申请，DNS 有可能帮你分配去广东的节点。极端情况下，有可能分配到不同运营商，<strong>导致无法打开网站。</strong></p>
+<p>我进行了三个测试，本地网络环境都是上海电信，更换了 DNS 设置。</p>
+<p>第一次测试使用 114DNS，分配了广州鹏博士网络，网站打不开。提交工单后，客服反映<strong>这个节点是局域网节点，只有鹏博士网络才能打开。</strong></p>
+<p>第二次测试使用电信默认 DNS，分配苏州电信，网站正常。</p>
+<p>第三次测试使用阿里云 DNS，分配杭州电信，网站正常</p>
+<p>后面两次虽然都能打开网站，但没有一个分配在上海电信，这种加速又能快多少呢？</p>
+<p>在网站<strong>配置足够、流量不大（日均访客 1000 以内）</strong> 时，不建议使用全站 CDN，这只会拖累访问体验。小网站只适合将图片部署在 CDN。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>雇个机器人帮你干活</title>
+      <link>https://newzone.top/_posts/2018-01-31-hire_a_robot.html</link>
+      <guid>https://newzone.top/_posts/2018-01-31-hire_a_robot.html</guid>
+      <source url="https://newzone.top/rss.xml">雇个机器人帮你干活</source>
+      <category>自动化</category>
+      <pubDate>Wed, 31 Jan 2018 22:51:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>机器人会取代你工作！
+计算云会取代你工作！
+AI 会取代你的工作！</p>
+</blockquote>
+<p>我相信科技终究有一天会消灭所有工作，但我们这代人的无奈就是很难等到这一天。</p>
+<p>作为懒人、宅男，等不及了怎么办？</p>
+<p>既然还没被取代，那就<strong>雇个机器人帮你干活</strong>！</p>
+<p>我每天第一件事是去各个网站看热门新闻、行业资料。以前是用 RSS，但 RSS 被视为落后，越来越多的网站不再提供 RSS 源。离开 RSS，我就一直没找到更合适的方法去将内容聚合起来，不得不在一个个网站间疲于奔命，逐渐不再看内容。</p>
+<blockquote>
+<p>RSS(Really Simple Syndication) 是一种描述和同步网站内容的格式，是使用最广泛的 XML 应用。简易信息聚合（也叫聚合内容）是一种 RSS 基于 XML 标准，在互联网上被广泛采用的内容包装和投递协议。</p>
+</blockquote>
+<ul>
+<li><input type="checkbox" id="task-item-0" disabled="disabled"><label for="task-item-0"> 增加 <code>Alfred</code> 搜索</label></li>
+</ul>
+<p><strong>直到遇到了我的第一个机器人雇员 <a href="https://github.com/huginn/huginn" target="_blank" rel="noopener noreferrer">Huginn</a></strong></p>
+<blockquote>
+<p>Huginn 是一个可以创建为你在线执行自动化任务的系统。Huginn 可以读取网页，监测事件并且执行符合你需求的动作。Huginn 通过 agents 创建并执行任务（事件流）。你可以将它看作是一个运行在你自己服务器上的 IFTTT 或 Zapier。</p>
+</blockquote>
+<p>Huginn 帮我将所有信息聚合成 RSS，24 小时帮我获取我要的内容。</p>
+<ul>
+<li><a href="http://news.163.com/rank" target="_blank" rel="noopener noreferrer">网易热门新闻</a>：抓取网易顶贴最多的 100 条新闻</li>
+<li><a href="http://top.baidu.com/buzz?b=1" target="_blank" rel="noopener noreferrer">百度实时热点</a>：实时更新每天的百度热点</li>
+<li><a href="https://www.guokr.com/" target="_blank" rel="noopener noreferrer">果壳网</a>：果壳首页推荐，官方更新速度较慢，刚好可以了解些奇思妙想</li>
+<li>工作类：梅花、SocialBeta、数英网、艾瑞网</li>
+</ul>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
